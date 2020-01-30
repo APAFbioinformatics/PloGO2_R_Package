@@ -7,7 +7,7 @@ R version > 3.5
 
 ## Installation
 
-### install dependencies 
+### First install dependencies 
 
 install.packages(c('httr', 'openxlsx', 'xtable','heatmap3'))
 
@@ -18,19 +18,22 @@ BiocManager::install("GOstats")
 
 BiocManager::install("GO.db")
 
-### install PloGO2_0.99.0.zip in R using install packages from local file
+### Next install PloGO2
 
-### testing script can be found in the package folder script/plog2_script.R
+From within R install from zipfile, using the file PloGO2_0.99.0.zip 
 
+### Testing 
 
+The example script for testing can be found in the package folder script/plog2_script.R
 
-### Optional - only needed for using WGCNA workflow
+### Optional - use with the WGCNA workflow
 
 BiocManager::install("impute")
+
 BiocManager::install("preprocessCore")
 
 install.packages('WGCNA')
 
 
-### testing script can be run using
+### Test the WGCNA workflow
 source(file.path(system.file("script", 	package="PloGO2"), "WGCNA_proteomics.R"))
