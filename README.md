@@ -24,7 +24,8 @@ From within R install from zipfile, using the file PloGO2_0.99.0.zip
 
 ### Testing 
 
-The example script for testing can be found in the package folder script/plog2_script.R
+The example script for testing can be found in the script package folder
+source(file.path(system.file("script", 	package="PloGO2"), "plog2_script.R"))
 
 ### Optional - use with the WGCNA workflow
 
