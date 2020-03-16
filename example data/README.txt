@@ -60,7 +60,7 @@ DataFolder <- "Secondary dataset - all data/input"
 
 
 res <- ExcelToPloPathway("ResultsWGCNAInput2PloGO2.xlsx", 
-	colName="Uniprot", compareWithReference="AllData", DB.name="pathwayDB.csv")
+	colName="Uniprot", compareWithReference="AllData", DB.name="HumanPathwayDBComb.csv")
 
 
 			
