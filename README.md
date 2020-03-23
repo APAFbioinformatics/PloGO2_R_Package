@@ -39,3 +39,13 @@ install.packages('WGCNA')
 
 ### Test the WGCNA workflow
 source(file.path(system.file("script", 	package="PloGO2"), "WGCNA_proteomics.R"))
+
+### Example data
+Three datasets in our paper are included in the example data folder.
+
+### Pathway database
+KEGG pathway databases are available in the pathway DB folder 
+for three common species: human, mouse and arabidopsis.
+
+
+
