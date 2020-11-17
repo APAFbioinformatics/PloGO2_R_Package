@@ -18,6 +18,8 @@ BiocManager::install("GOstats")
 
 BiocManager::install("GO.db")
 
+BiocManager::install("clusterProfiler")
+
 ### Next install PloGO2
 
 From within R install from zipfile, using the file PloGO2_0.99.3.tar.gz
