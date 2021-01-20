@@ -3,7 +3,7 @@
 This project contains the package tar tar file, manual and vignette for the R package PloGO2, which helps with gene ontology and pathway analysis for multi-condition experiments.  The package has been submitted to Bioconductor and is currently under review.
 
 ## Dependencies
-R version > 3.6.0
+R version > 4.0
 
 ## Installation
 
@@ -22,7 +22,7 @@ BiocManager::install("clusterProfiler")
 
 ### Next install PloGO2
 
-From within R install from zipfile, using the file PloGO2_0.99.3.tar.gz
+From within R install from zipfile, using the file PloGO2_1.3.1.tar.gz
 
 ### Testing 
 
